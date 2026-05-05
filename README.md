@@ -10,9 +10,9 @@
 ## 📂 محتويات المسار (Roadmap Path)
 - [x] **01: Foundations Level 1** 🟢
 - [x] **02: Algorithms Level 1** 🟢
-- [⏳] **03: C++ Level 1** 🔵 (أنا هنا الآن - Current Focus)
-- [ ] **04: Advanced Solutions for Algorithms L1** ⚪
-- [ ] **05: Algorithms Level 2** ⚪
+- [x] **03: C++ Level 1** 🟢 
+- [x] **04: Advanced Solutions for Algorithms L1** 🟢
+- [⏳] **05: Algorithms Level 2** 🔵(أنا هنا الآن - Current Focus)
 - [ ] **06: C++ Level 2** ⚪
 - [ ] **07: Algorithms Level 3** ⚪
 - [ ] **08: Algorithms Level 4** ⚪
@@ -24,8 +24,7 @@
 * **IDE:** Visual Studio 2026
 * **OS:** Windows
 
-## 🚀 آخر التحديثات (Latest Updates)
-* **Course 03:** بدأت في قسم النصوص (Strings) ومعالجة البيانات باستخدام `getline` و `stoi`.
+
 
 ---
 *“Programming is a marathon, not a sprint.”*
