@@ -66,9 +66,11 @@ string GetWeekDayName(enWeekDay WeekDay)
 // #47 حلقات اللوب (For Loop Problems)
 // ==========================================================
 
-void PrintNumbers1ToN(int N) {
+void PrintNumbers1ToN(int N)
+{
     cout << "\n--- Problem #26: Numbers 1 to N ---" << endl;
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++) 
+    {
         cout << i << endl;
     }
 }
@@ -80,42 +82,52 @@ void PrintNumbersNTo1(int N) {
     }
 }
 
-int SumOddNumbers1ToN(int N) {
+int SumOddNumbers1ToN(int N) 
+{
     int Sum = 0;
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++)
+        {
         if (i % 2 != 0) Sum += i;
-    }
+        }
     return Sum;
 }
 
-int SumEvenNumbers1ToN(int N) {
+int SumEvenNumbers1ToN(int N) 
+{
     int Sum = 0;
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++)
+        {
         if (i % 2 == 0) Sum += i;
-    }
+        }
     return Sum;
 }
 
-long long Factorial(int N) {
+long long Factorial(int N)
+{
     long long Fact = 1;
-    for (int i = N; i >= 1; i--) {
+    for (int i = N; i >= 1; i--)
+        {
         Fact *= i;
-    }
+        }
     return Fact;
 }
 
-long long PowerOfM(int Num, int M) {
+long long PowerOfM(int Num, int M) 
+{
     if (M == 0) return 1;
     long long P = 1;
-    for (int i = 1; i <= M; i++) {
+    for (int i = 1; i <= M; i++)
+        {
         P = P * Num;
-    }
+        }
     return P;
 }
 
-void PrintLettersAToZ() {
+void PrintLettersAToZ()
+{
     cout << "\n--- Problem #46: Letters A to Z ---" << endl;
-    for (int i = 65; i <= 90; i++) {
+    for (int i = 65; i <= 90; i++) 
+    {
         cout << char(i) << " ";
     }
     cout << endl;
