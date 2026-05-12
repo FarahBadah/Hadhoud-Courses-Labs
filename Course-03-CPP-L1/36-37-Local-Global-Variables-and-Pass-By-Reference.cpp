@@ -20,12 +20,14 @@ void TestScope()
 // ==========================================================
 
 // مثال 1: التغيير الحقيقي باستخدام الـ Reference (&)
-void ChangeValue(int &Num) {
+void ChangeValue(int &Num)
+{
     Num = 7000;
 }
 
 // مثال 2: التبديل (بدون & لن يغير القيم الأصلية - Pass by Value)
-void SwapByValue(int A, int B) {
+void SwapByValue(int A, int B)
+{
     int Temp = A;
     A = B;
     B = Temp;
@@ -33,13 +35,15 @@ void SwapByValue(int A, int B) {
 }
 
 // مثال 3: التبديل الحقيقي (باستخدام & - Pass by Reference)
-void SwapByReference(int &A, int &B) {
+void SwapByReference(int &A, int &B)
+{
     int Temp = A;
     A = B;
     B = Temp;
 }
 
-int main() {
+int main()
+{
     // --- تطبيق درس 36 ---
     cout << "===== Lesson 36: Scope =====" << endl;
     int x = 10; // Local in Main
