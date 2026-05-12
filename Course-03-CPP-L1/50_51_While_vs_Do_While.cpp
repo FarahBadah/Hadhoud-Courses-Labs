@@ -8,7 +8,8 @@ using namespace std;
 // ==========================================================
 
 // #26: Print Numbers 1 to N
-void PrintNumbers1ToN(int N) {
+void PrintNumbers1ToN(int N) 
+{
     cout << "\n--- Problem #26: Numbers 1 to N (While) ---" << endl;
     int i = 1;
     while (i <= N) {
@@ -19,7 +20,8 @@ void PrintNumbers1ToN(int N) {
 }
 
 // #37: Sum Until -99 (While Version)
-int SumUntilMinus99While() {
+int SumUntilMinus99While()
+{
     cout << "\n--- Problem #37: Sum Until -99 (While Version) ---" << endl;
     int Sum = 0, Num = 0;
     cout << "Enter numbers (Enter -99 to stop): " << endl;
@@ -32,7 +34,8 @@ int SumUntilMinus99While() {
 }
 
 // #50: ATM PIN (While Version)
-void CheckATMPinWhile() {
+void CheckATMPinWhile() 
+{
     cout << "\n--- Problem #50: ATM PIN (While Version) ---" << endl;
     int PinCode = 1234, EnteredPin, FailedCounter = 0;
     while (FailedCounter < 3) {
@@ -53,7 +56,8 @@ void CheckATMPinWhile() {
 // ==========================================================
 
 // قراءة رقم ضمن نطاق (Do While) - مثال الدرس الأساسي
-int ReadIntNumberInRange(int From, int To) {
+int ReadIntNumberInRange(int From, int To)
+{
     int Number;
     do {
         cout << "Please enter a number between " << From << " and " << To << ": " << endl;
@@ -63,7 +67,8 @@ int ReadIntNumberInRange(int From, int To) {
 }
 
 // #37: Sum Until -99 (Do While Version)
-int SumUntilMinus99DoWhile() {
+int SumUntilMinus99DoWhile()
+{
     cout << "\n--- Problem #37: Sum Until -99 (Do While Version) ---" << endl;
     int Sum = 0, Num;
     do {
@@ -75,7 +80,8 @@ int SumUntilMinus99DoWhile() {
 }
 
 // #50: ATM PIN (Do While Version)
-void CheckATMPinDoWhile() {
+void CheckATMPinDoWhile() 
+{
     cout << "\n--- Problem #50: ATM PIN (Do While Version) ---" << endl;
     int PinCode = 1234, EnteredPin, FailedCounter = 0;
     do {
@@ -95,7 +101,8 @@ void CheckATMPinDoWhile() {
 // Main Function
 // ==========================================================
 
-int main() {
+int main()
+{
     cout << "========== LESSON 50 & 51: WHILE vs DO WHILE ==========\n";
 
     // 1. تجربة الـ PIN باستخدام النسختين
