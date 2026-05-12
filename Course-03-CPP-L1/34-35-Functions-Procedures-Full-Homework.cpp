@@ -9,7 +9,8 @@ using namespace std;
 // ==========================================================
 
 // إجراء (Procedure): ينفذ مهمة الطباعة مباشرة ولا يعيد قيمة
-void MySumProcedure() {
+void MySumProcedure() 
+{
     int Num1, Num2;
     cout << "\n[L34] Procedure - Enter two numbers: " << endl;
     cin >> Num1 >> Num2;
@@ -17,7 +18,8 @@ void MySumProcedure() {
 }
 
 // دالة (Function): تحسب وتعيد قيمة (return) لنستخدمها لاحقاً
-int MySumFunction() {
+int MySumFunction() 
+{
     int Num1, Num2;
     cout << "[L34] Function - Enter two numbers: " << endl;
     cin >> Num1 >> Num2;
@@ -29,12 +31,14 @@ int MySumFunction() {
 // ==========================================================
 
 // [#1] Print Name Procedure
-void PrintMyName(string Name) {
+void PrintMyName(string Name) 
+{
     cout << "\n[#1] My Name is: " << Name << endl;
 }
 
 // [#2] Read and Print Name
-string ReadName() {
+string ReadName()
+{
     string Name;
     cout << "[#2] Please enter your name: ";
     getline(cin >> ws, Name); 
@@ -42,18 +46,21 @@ string ReadName() {
 }
 
 // [#14] Swap (Pass by Reference)
-void Swap(int& Num1, int& Num2) {
+void Swap(int& Num1, int& Num2) 
+{
     int Temp = Num1;
     Num1 = Num2;
     Num2 = Temp;
 }
 
 // [#15 & #16] Rectangle Area Functions
-float CalculateRectangleArea(float a, float b) {
+float CalculateRectangleArea(float a, float b) 
+{
     return a * b;
 }
 
-float RectangleAreaBySideAndDiagonal(float a, float d) {
+float RectangleAreaBySideAndDiagonal(float a, float d) 
+{
     return a * sqrt(pow(d, 2) - pow(a, 2));
 }
 
@@ -67,27 +74,32 @@ float CircleAreaByCircumference(float L) { return (L * L) / (4 * PI); }
 float CircleAreaInIsoscelesTriangle(float a, float b) {
     return (PI * b * b / 4) * ((2 * a - b) / (2 * a + b));
 }
-float CircleAreaAroundTriangle(float a, float b, float c) {
+float CircleAreaAroundTriangle(float a, float b, float c) 
+{
     float P = (a + b + c) / 2;
     float T = (a * b * c) / (4 * sqrt(P * (P - a) * (P - b) * (P - c)));
     return PI * T * T;
 }
 
 // [#31 & #32] Powers
-void PrintPowerOf2_3_4(int Num) {
+void PrintPowerOf2_3_4(int Num)
+{
     cout << "\n[#31] Powers of " << Num << ": 2nd=" << Num*Num << ", 3rd=" << Num*Num*Num << ", 4th=" << Num*Num*Num*Num << endl;
 }
 
-int CalculatePower(int Num, int M) {
+int CalculatePower(int Num, int M)
+{
     return pow(Num, M);
 }
 
 // [#42 & #43] Time Conversion
-int CalculateTotalSeconds(int Days, int Hours, int Minutes, int Seconds) {
+int CalculateTotalSeconds(int Days, int Hours, int Minutes, int Seconds)
+{
     return (Days * 24 * 3600) + (Hours * 3600) + (Minutes * 60) + Seconds;
 }
 
-void ConvertSecondsToTime(int TotalSeconds) {
+void ConvertSecondsToTime(int TotalSeconds) 
+{
     int Days = TotalSeconds / (24 * 3600);
     int Remainder = TotalSeconds % (24 * 3600);
     int Hours = Remainder / 3600;
@@ -100,7 +112,8 @@ void ConvertSecondsToTime(int TotalSeconds) {
 // ==========================================================
 // Main Function: Executing All Lessons
 // ==========================================================
-int main() {
+int main() 
+{
     // --- Execution Lesson 34 ---
     cout << "===== Lesson 34: Procedure vs Function =====" << endl;
     MySumProcedure();
