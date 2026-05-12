@@ -6,7 +6,8 @@ using namespace std;
 // --- [Lesson 32] Functions Part 1 ---
 
 // وظيفة الفانكشن: طباعة الكارد الشخصي 
-void PrintMyCard() {
+void PrintMyCard()
+{
     cout << "****************************************" << endl;
     cout << "Name   : Farah." << endl; 
     cout << "Age    :  Age." << endl;
@@ -16,7 +17,8 @@ void PrintMyCard() {
 }
 
 // وظيفة الفانكشن: طباعة النجوم 
-void PrintStars() {
+void PrintStars
+{
     cout << "********" << endl;
     cout << "********" << endl;
     cout << "********" << endl;
@@ -24,7 +26,8 @@ void PrintStars() {
 }
 
 // وظيفة الفانكشن: طباعة نص الوعد 
-void PrintLearningPromise() {
+void PrintLearningPromise() 
+{
     cout << "I Love Programming!" << endl << endl;
     cout << "I promise to be the best developer ever!" << endl << endl;
     cout << "I know it will take some time to practice, but I will achieve my goal." << endl << endl;
@@ -32,7 +35,8 @@ void PrintLearningPromise() {
     cout << "Farah." << endl;
 }
 
-int main() {
+int main() 
+{
     // استدعاء الفانكشنز الخاصة بالواجبات
     PrintMyCard();
     cout << endl;
