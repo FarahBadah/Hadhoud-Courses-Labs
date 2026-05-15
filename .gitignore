@@ -1,0 +1,44 @@
+### --- C++ (Visual Studio & GCC) ---
+# تجاهل ملفات التجميع والملفات المؤقتة
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.suo
+*.user
+*.log
+*.tlog
+*.ipch
+.vs/
+
+### --- C# & .NET (Visual Studio) ---
+# تجاهل مجلدات المخرجات في سي شارب
+bin/
+obj/
+*.sln.doccache
+*.suo
+*.user
+*.userprefs
+
+### --- Python (لو قررت تجربتها) ---
+__pycache__/
+*.py[cod]
+.venv/
+
+### --- ملفات النظام والبيئة ---
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+### --- ملفات البيانات المؤقتة ---
+*.tmp
+*.bak
