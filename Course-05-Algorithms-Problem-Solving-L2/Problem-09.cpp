@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-
 using namespace std;
 
 // دالة لقراءة عدد صحيح موجب من المستخدم
