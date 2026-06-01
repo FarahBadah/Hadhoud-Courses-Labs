@@ -42,5 +42,4 @@ int main()
 	PrintResult(ReadPositiveNumber("Please enter a positive number?"));
 
 	return 0;
-  
 }
